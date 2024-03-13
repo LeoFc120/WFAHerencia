@@ -18,6 +18,7 @@ namespace WFAHere
 
         }
 
+        /*
         //Metodos 
         public void MostrarBallena()
         {
@@ -33,5 +34,16 @@ namespace WFAHere
             Console.WriteLine("Nombre: " + nombre);
             Console.WriteLine("Peso: " + peso + "Kg");
         }
+        */
+        public string mostrarballena() 
+        {
+            string dato1;
+            dato1 = "El nombre de la ballena es: " + getNombre() + Environment.NewLine;
+            dato1 += "El peso es: " + peso + " kilogramos" + Environment.NewLine;
+            return dato1;
+
+        }
+
+
     }
 }

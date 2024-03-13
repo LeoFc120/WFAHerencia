@@ -59,7 +59,7 @@ namespace WFAHere
             dat = "El nombre de la vaca es: " + getNombre() + Environment.NewLine;
             dat += "El peso es: " + peso + " kilogramos" + Environment.NewLine;
             dat += "Litros de leche: " + LitLeche + Environment.NewLine;
-            dat += "La Vaca come:" + peso / (2 * LitLeche)+ Environment.NewLine;
+            dat += "La Vaca come:" + peso / (2 * LitLeche) + Environment.NewLine;
             return dat;
         }
     }
